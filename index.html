@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(rgb(0, 0, 0), rgb(227, 231, 227));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: aliceblue;
+            font-family: "Poppins", sans-serif;
+        }
+        .amogus {
+            display: none;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgba(100, 118, 128, 0);
+        }
+
+        nav ul {
+            display: flex;
+            justify-self: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(209, 94, 94);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+
+            margin: 200px 0;
+        }
+
+        .firstsection>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 4rem;
+            margin: 0 0;
+
+
+        }
+
+        .rightsection img {
+            width: 150%;
+            margin: -200px -200px;
+
+        }
+
+        .Red {
+            color: limegreen;
+        }
+
+        #one {
+            color: white;
+        }
+
+        .twot {
+            margin: -30px 0;
+        
+        }
+
+        #two {
+            color: limegreen;
+            font-size: 3rem;
+        
+        }
+
+        #three {
+            font-size: 1rem;
+        }
+
+        .threet {
+            margin-top: -70px;
+
+            line-height: 0.2;
+        }
+
+        .secondsection {
+            max-width:80%;
+            margin: auto;
+        }
+
+        .buttons {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .buttons.show {
+            opacity: 1;
+        }
+        .btn{
+            padding: 12px;
+            font-size: 1rem;
+            margin-left: 30px;
+            background-color: rgba(0, 0, 0, 0.685);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .h1{
+            text-align: center;
+            display: flex;
+            margin-top: 50px;
+            font-size: 3rem;
+            width: 100%;
+        }
+        .box img{
+            display: flex;
+            justify-content: center;
+            border: 5px solid white;
+            border-radius: 100%;
+            margin: 40px 500px;
+            
+        }
+        .para{
+            display: flex;
+            text-align: center  ;
+            width: 100%;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.435);
+            font-size: 1.5rem;
+        }
+        .h2{
+            display: flex;
+            margin: 50px 140px;
+            width: 100%;
+            font-size: 3rem;
+            text-align: center;
+
+        }
+        .thirdsection{
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+        .cards{
+            width: 19%;
+            background-color: gray;
+            border-radius: 5px;
+            margin: 0px 40px;
+            box-shadow: 2px 2px 10px black;
+            display: inline-block;
+
+        }
+        .image img{
+            width: 100%;
+        }
+        .title{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Karan's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About </a></li>
+                    <li> <a href="/">Education </a></li>
+                    <li> <a href="/">Skills </a></li>
+                    <li> <a href="/">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <span id="one"></span>
+                <br>
+                <div class="twot"><span id="two"></span></div>
+                <br>
+                <div class="threet"><span id="three"></span></div>
+    
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+                <span id="four"></span>
+            </div>
+            <div class="rightsection">
+                <img src="1.png" alt style="">
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1 class="h1">About Me</h1>
+            <div class="box">
+                <img src="2.jpg" alt style="" height="300px" width="300px">
+            </div>
+            <div class="para"><pr>Currently navigating the exciting world of Electronics and Communication Engineering at the Maharaja Surajmal Institute of Technology, Delhi. My passion lies in the realm of web development where I delve into C++, C and dive deep into web technologies like HTML, CSS & JavaScript.
+                I’m on a mission to transform ideas into impactful digital experiences and innovative solutions. Based in the vibrant city of Delhi, I'm eager to connect with fellow tech enthusiasts, mentors, and collaborators. Together, let’s push the boundaries of technology and create something extraordinary!
+                Ready to shape the future of tech? Let’s get started!</pr> </div>
+                <br><br><br>
+                
+
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <h2 class="h2">Skills</h2>
+            <div class="cards">
+                <div class="image">
+                    <img src="html.png">
+                </div>
+                <div class="HTML">
+                    <h1>HTML</h1>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="css.png">
+                </div>
+                <div class="CSS">
+                    <h1>CSS</h1>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="js.png">
+                </div>
+                <div class="JS">
+                    <h1>JS</h1>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="cpp.png">
+                </div>
+                <div class="C++">
+                    <h1>C++</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#one', {
+            strings: ["Hi, I'm Karan Vasisth "],
+            typeSpeed: 30,
+            
+        });
+    </script>
+    <script>
+        var typed = new Typed('#two', {
+            strings: ["Frontend Developer"],
+            typeSpeed: 80,
+            
+        });
+    </script>
+     <style>
+        .buttons {
+          opacity: 0; /* Initially hidden */
+          transition: opacity 0.5s ease-in-out; /* Smooth transition for the appearance */
+        }
+        .buttons.show {
+          opacity: 1; /* Visible once the typing is done */
+        }
+      </style>
+      
+      
+      </div>
+      
+      <script>
+        var typed = new Typed('#three', {
+          strings: ["On a journey to transform ideas into impactful digital solutions.<br>Passionate about mastering Web development to create meaningful digital experiences.<br>Let's innovate together!."],
+          typeSpeed: 5,
+          showCursor: 1,
+          onComplete: function() {
+            var three = document.getElementsByClassName("typed-cursor");
+            three[0].classList.add("amogus");
+            three[2].classList.add("amogus");
+            console.log(three);
+          }       
+        });
+      </script>
+      
+   
+</body>
+
+</html>
